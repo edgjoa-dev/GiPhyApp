@@ -1,0 +1,56 @@
+body{
+    padding: 60px;
+    margin: 0px;
+    color: rgb(37, 37, 37);
+    font-family:  Helvetica, sans-serif;
+    background-color: #f0f0f0;
+}
+
+input{
+    background-color: rgb(238, 238, 238);
+    border: 2px solid rgb(82, 82, 82);
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px 3px rgb(189, 189, 189);
+    color: rgb(59, 59, 59);
+    font-size: 16px;
+    padding: .7rem;
+
+}
+
+.card{
+    align-content: center;
+    background-color: #383838;
+    border: 0px;
+    border-radius: 10px;
+    box-shadow: 15px 15px 15px 1px rgba(0, 0, 0, 0.459);
+    color: #eeeeee;
+    display: flex;
+    font-size: 18px;
+    flex-direction: column;
+    height: 17rem;
+    width: 15rem;
+    justify-content: space-between;
+    overflow: hidden;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.card p{
+    padding: 5px;
+    text-align: center;
+}
+
+.card img{
+    max-height: 170px;
+}
+
+.card--grid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.animate__animated .animate__fadeInUp{
+    --animate-duration: .3s;
+}
